@@ -34,7 +34,7 @@ img {
 
 /* Navigation
 ------------------------------------------------------------*/
-nav{
+nav {
     position: fixed;
     background: #FFF;
     top: 0;
@@ -46,6 +46,9 @@ nav{
 nav a {
     color: #333;
     font-weight: bold;
+}
+nav .topnav li.mobile {
+    display: none;
 }
 @media (max-width: 903px) {
     nav .topnav ul li {
